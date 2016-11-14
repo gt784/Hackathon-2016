@@ -1,0 +1,19 @@
+Deploy or run an image
+sudo docker run --name web1 -d -p 8081:80 nginx;
+sudo docker run --name web2 -d -p 8082:80 httpd;
+
+stop and image
+sudo docker stop web1;
+sudo docker stop web2;
+
+restart an image
+sudo docker start web1;
+sudo docker start web2;
+
+remove an image/comtainer
+sudo docker rm web1;
+sudo docker rm web2;
+
+check availabe running containers or imgaes
+sudp docker ps
+
